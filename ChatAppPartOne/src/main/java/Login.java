@@ -60,6 +60,7 @@ public class Login {
         }
 
         if (!checkCellPhoneNumber(phoneNumber)) {
+            // checks SA number format (+27 and 12 digits)
             return "Phone wrong";
         }
 
