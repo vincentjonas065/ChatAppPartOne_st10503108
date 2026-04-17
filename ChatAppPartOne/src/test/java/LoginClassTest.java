@@ -12,6 +12,7 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 public class LoginClassTest {
+    // unit tests for username, password, phone, login
 
     Login login = new Login();
 
