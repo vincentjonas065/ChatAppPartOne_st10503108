@@ -17,7 +17,7 @@ public class Login {
 
     // ---------------- USERNAME CHECK ----------------
     public boolean checkUserName(String username) {
-        // must contain underscore and be max 5 chars
+        // checks if username is valid (underscore + max 5 chars)
         return username.contains("_") && username.length() <= 5;
     }
 
