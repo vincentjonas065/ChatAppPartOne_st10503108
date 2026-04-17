@@ -15,14 +15,15 @@ public class Login {
     private String password;
     private String phoneNumber;
 
-    // ---------------- USERNAME CHECK ----------------
+    //  USERNAME CHECK 
     public boolean checkUserName(String username) {
         // checks if username is valid (underscore + max 5 chars)
         return username.contains("_") && username.length() <= 5;
     }
 
-    // ---------------- PASSWORD CHECK ----------------
+    //PASSWORD CHECK
     public boolean checkPasswordComplexity(String password) {
+        // checks password: 8+ chars, uppercase, number, special character
 
         boolean hasUpper = false;
         boolean hasNumber = false;
