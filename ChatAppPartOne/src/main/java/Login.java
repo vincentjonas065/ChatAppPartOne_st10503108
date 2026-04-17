@@ -8,7 +8,8 @@
  *
  * @author Student
  */
-public class Login {
+public class Login { 
+    // GitHub update 1
 
     private String username;
     private String password;
