@@ -12,6 +12,7 @@
 import java.util.Scanner;
 
 public class MainApp {
+        // handles user input and runs the chat app flow
         public static void main(String[] args) {
 
 
